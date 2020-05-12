@@ -13,17 +13,17 @@ class Artist
     @@all 
   end
   
-  def songs 
-    artist.songs = @@all
-  end
+  # def songs 
+    
+  # end
   
   def add_song(song)
     song.artist = self
   end
   
-  # def add_song_by_name
+  def add_song_by_name
     
-  # end
+  end
   
   # def self.song_count
     
